@@ -1,9 +1,9 @@
 {
   "name": "hexo-aurora-auto-excerpt",
-  "version": "2.3.0",
+  "version": "2.10.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whymesay/hexo-aurora-auto-excerpt.git"
+    "url": "https://github.com/whymesay/hexo-aurora-auto-excerpt"
   },
   "homepage": "https://github.com/whymesay/hexo-aurora-auto-excerpt#readme",
   "description": "Hexo plugin to add auto excerpt on posts with configured number of characters",
@@ -11,6 +11,15 @@
   "author": "whymesay",
   "license": "MIT",
   "dependencies": {
-    "html-to-text": "^3.3.0"
+    "html-to-text": "^3.3.0",
+    "prop-types": "^15.6.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "react-util-tea-toy": "1.0.0",
+    "react-util-tea-x": "1.0.0",
+    "hexo-compose-util-t": "1.0.0"
   }
 }
